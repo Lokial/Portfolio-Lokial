@@ -35,15 +35,3 @@ certificateImages.forEach(image => {
     });
 
 });
-
-const diplomaImages = document.querySelectorAll(".project-grid img");
-
-diplomaImages.forEach(image => {
-
-    image.addEventListener("click", () => {
-
-        window.open(image.src, "_blank");
-
-    });
-
-});
